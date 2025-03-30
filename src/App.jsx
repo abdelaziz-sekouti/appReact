@@ -1,11 +1,11 @@
 import './App.css'
-
+import FetchMovie from './components/fetchMovie'
 function App() {
 
   return (
-    <>
-      <h1>HELLO FRIENDS ,PLEASE LIKE SHARE AND SUBSCRIBE TO MY CHANNEL . THANKS.</h1>
-    </>
+    <div className='container py-4 my-3'>
+  <FetchMovie/>
+    </div>
   )
 }
 
